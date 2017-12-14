@@ -1,5 +1,5 @@
-## Welcome to my blog ##
+## Welcome to my [GitHub](https://github.com/lianzeng) ##
 
 
 
-please visit [my github](https://github.com/lianzeng)
+
