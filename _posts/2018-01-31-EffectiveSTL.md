@@ -1,12 +1,18 @@
-  http://www.sgi.com/tech/stl/    STL design documents, STL source code(eg: hash_map/hash_set)
-  http://www.stlport.org/   http://stlport.sourceforge.net/   provide debug mode to detect STL error runtime
-  http://www.boost.org/      http://boost.sourceforge.net/    pre-library for future C++ STL(eg:c++17), well compatible with stand STL, widely use in commercial products ;
-https://code.google.com/archive/p/boost-doc-zh/downloads boost-doc-chinese
-<The Boost C++ Libraries>:  https://theboostcpplibraries.com/  学习boost有助于深入理解C++特性的本质；
-http://sean-parent.stlab.cc/papers-and-presentations#title-better-code-data-structures   Better use of STL containter
+  [STL design documents, STL source code](http://www.sgi.com/tech/stl/)    
+  
+  [provide debug mode to detect STL error runtime](http://www.stlport.org/)  
+  
+  [pre-library for future C++ STL(eg:c++17)](http://www.boost.org/)    
+  
+[boost-doc-chinese](https://code.google.com/archive/p/boost-doc-zh/downloads) 
+
+[The Boost C++ Libraries](https://theboostcpplibraries.com/)  学习boost有助于深入理解C++特性的本质；
+
+[Better use of STL containter](http://sean-parent.stlab.cc/papers-and-presentations#title-better-code-data-structures)   
 
 
 <Effective STL>中文版翻译的非常棒, 不过这本书里面有些内容过时了，在C++11里面已经得到了支持；
+  
 <C++标准程序库> 这本书描述了STL的内部实现机制，非常有助于学习STL算法的思想
 
 
