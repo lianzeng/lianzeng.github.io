@@ -1,15 +1,15 @@
 
+《C++ Primer 第5版中文版》 非常非常好。
 
-《C++语言的设计和演化》C++之父的书籍，可以学会如何正确的使用C++的特性，而不是误用，非常好；
-《C++ Primer 第5版中文版》 
+《C++语言的设计和演化》C++之父的书籍
 <C++ Coding Standards: 101 Rules, Guidelines, and Best Practices>sutter;非常好的C++编码规范, download ebook
 <c++ concurrency in action> 并发编程的最佳选择；
 <Effective c++> 侯捷翻译
 《effective STL》 中文版翻译的很棒，看完了，用好STL必看的经典书籍
 <Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14>  Scott Meyers经典, 也有人翻译:https://vivym.gitbooks.io/effective-modern-cpp-zh/content/
-<muduo linux多线程>陈硕，高水平作品；
+<muduo linux多线程>陈硕，高水平作品，书中有一些C++的经验和独到见解；
 <C++标准程序库> 对于C++熟手更加快捷；
-《嵌入式Linux系统实用开发》何永琪，后面章节总结了C&C++的语法区别，微信读书有电子版；
+《嵌入式Linux系统实用开发》何永琪，后面章节总结了C&C++的语法区别；
 
 
 http://www.cyber-dojo.org/  ：online test-driven-develop; makefile, C++17, ut测试框架可选择googleTest,cppUtest,assert，最简单的测试就是assert(函数调用),支持多个文件, 每次提交都会保存，可以回到任一历史节点。
