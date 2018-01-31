@@ -362,33 +362,17 @@ C风格的字符串一定要以null('\0')结束
 int toupper ( int c );  isalpha (); tolower(); 大小写转换；
 
 string的构造函数：
-default (1)
 string();
-
-copy (2)
-string (const string& str);
-
-substring (3)
-string (const string& str, size_t pos, size_t len = npos);
-
-from c-string (4)
-string (const char* s);
-
-from buffer (5)
-string (const char* s, size_t n);
-
-fill (6)
-string (size_t n, char c);
-
-range (7)
+string (const string& str);//copy (2)
+string (const string& str, size_t pos, size_t len = npos);//substring (3)
+string (const char* s);//from c-string (4)
+string (const char* s, size_t n);//from buffer (5)
+string (size_t n, char c);//fill (6)
 template <class InputIterator>
-  string  (InputIterator first, InputIterator last);
+  string  (InputIterator first, InputIterator last);//range (7)
 
-initializer list (8)
-string (initializer_list<char> il);
-
-move (9)
-string (string&& str) noexcept;
+string (initializer_list<char> il);//initializer list (8)
+string (string&& str) noexcept;//move (9)
 
 
 
