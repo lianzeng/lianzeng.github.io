@@ -35,7 +35,8 @@ Effective C++ 中文版第三版 读书笔记，这本书非常好,55个条款�
            private inherit: Not is-a, only want the implementation, not want the interface. should be replaeced by"composition+public inherit"
 
 4.hide: derive class will hide all the same name function(overload function) in base class even if only re-implement one function;
-       using BaseClass::functionname; //在派生类声明，使得基类中没有被派生类override的重载函数在派生类可见，如果不这样，那基类所有的同名函数都会被隐藏（不能被调用了）；
+       using BaseClass::functionname; //在派生类声明，使得基类中没有被派生类override的重载函数在派生类可见，如果不这样，
+       那基类所有的同名函数都会被隐藏（不能被调用了）；
 5. Non-const function reuse const function: return const_cast<Type&>(static_cast<const Type&>(*this).Func())
 
 6.80-20法则：一个应用程序，80%的cycle消耗在20%的代码上，所以应该找出这20%的code，重点优化；
@@ -58,7 +59,8 @@ Effective C++ 中文版第三版 读书笔记，这本书非常好,55个条款�
 
 12.template<>表示全特化的模板类，它的接口可以和源模板类的接口不同。
 
-条款05： 了解C++默认提供的函数（构造赋值析构）及前提条件: 编译器默认提供: 构造，nonVirtual析构，拷贝，赋值，如果用户提供了构造函数则编译器不再提供，编译器提供的函数都是public&&inline的。建议风格：都显示提供(使用关键字default,delete)
+条款05： 了解C++默认提供的函数（构造赋值析构）及前提条件: 编译器默认提供: 构造，nonVirtual析构，拷贝，赋值，
+如果用户提供了构造函数则编译器不再提供，编译器提供的函数都是public&&inline的。建议风格：都显示提供(使用关键字default,delete)
 
 条款04： 确定对象在使用前被初始化： 尤其对于基本数据类型(int,double,char*)，C++里面必须显示初始化，不能依赖编译器；对于复合类型，
 确保每个构造函数都对每个成员显示初始化；注意，别混淆了赋值和初始化的区别；
