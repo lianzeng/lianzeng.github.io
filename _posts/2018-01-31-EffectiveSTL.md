@@ -11,13 +11,13 @@
 [Better use of STL containter](http://sean-parent.stlab.cc/papers-and-presentations#title-better-code-data-structures)   
 
 
-<Effective STL>中文版翻译的非常棒, 不过这本书里面有些内容过时了，在C++11里面已经得到了支持；
+<Effective STL> 中文版翻译的非常棒, 不过这本书里面有些内容过时了，在C++11里面已经得到了支持；
   
 <C++标准程序库> 这本书描述了STL的内部实现机制，非常有助于学习STL算法的思想
 
 
 
-  使用STL的代码在编译时会把STL的源码特化后重新编译的，因为模板必须特化后才会参与编译。也就是说STL头文件里面包含的都是STL源码？
+  使用STL的代码在编译时会把STL的源码特化后重新编译的，因为模板必须特化后才会参与编译。也就是说STL头文件里面包含的都是STL源码.
 
 0.C++标准库不包含网络，数据库，窗口，boost第3方库可能支持， C++11才有了标准线程库，但是STL容器接口/算法 绝对不是线程安全的！！
    STL的接口是标准规定的，但STL的实现取决于厂商，有时候不是编译器不够好，而是STL的库实现不好；
