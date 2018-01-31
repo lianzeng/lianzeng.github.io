@@ -1,16 +1,6 @@
-  [STL design documents, STL source code](http://www.sgi.com/tech/stl/)    
+ 
   
-  [provide debug mode to detect STL error runtime](http://www.stlport.org/)  
-  
-  [pre-library for future C++ STL(eg:c++17)](http://www.boost.org/)    
-  
-[boost-doc-chinese](https://code.google.com/archive/p/boost-doc-zh/downloads) 
 
-[The Boost C++ Libraries](https://theboostcpplibraries.com/)  学习boost有助于深入理解C++特性的本质；
-
-[Better use of STL containter](http://sean-parent.stlab.cc/papers-and-presentations#title-better-code-data-structures)   
-  
-<C++标准程序库> 这本书描述了STL的内部实现机制，非常有助于学习STL算法的思想
 《Effective STL》 中文版翻译的非常棒, 不过这本书里面有些内容过时了，在C++11里面已经得到了支持；
 
 
@@ -263,3 +253,18 @@ d) 新标准支持std::bind，函数适配器，代替旧的bind1st和bind2nd；
 条款46：考虑使用函数对象代替函数 作STL算法的参数，因为编译器在对STL模板函数编译时会对funcObj()做内联优化，而如果直接传递函数的话实际上是传递的函数指针，不能做内联；
 
 btw: 如果关键字本来就是无序的，或者性能测试发现问题可以用哈希技术解决，就用无序容器；
+
+//////////////////////其它资源：
+
+<C++标准程序库> 这本书描述了STL的内部实现机制，非常有助于学习STL算法的思想
+  [STL design documents, STL source code](http://www.sgi.com/tech/stl/)    
+  
+  [provide debug mode to detect STL error runtime](http://www.stlport.org/)  
+  
+  [pre-library for future C++ STL(eg:c++17)](http://www.boost.org/)    
+  
+[boost-doc-chinese](https://code.google.com/archive/p/boost-doc-zh/downloads) 
+
+[The Boost C++ Libraries](https://theboostcpplibraries.com/)  学习boost有助于深入理解C++特性的本质；
+
+[Better use of STL containter](http://sean-parent.stlab.cc/papers-and-presentations#title-better-code-data-structures)  
