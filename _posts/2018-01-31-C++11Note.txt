@@ -1,7 +1,6 @@
 
 http://www.cplusplus.com/   所有C++11的新特性都可以在这个网址找到example
 <The Boost C++ Libraries>:  https://theboostcpplibraries.com/  学习boost有助于深入理解C++特性的本质；
-在.bashrc文件中设置alias g++='g++ -std=c++11' 或者 -std=gnu++11  并执行source .bashrc; 对于4.9.2 version 以上的 GCC支持c++11, gcc --version 查看版本，Gcc版本一般随OS版本更新; https://gcc.gnu.org/projects/cxx-status.html#cxx11  C++11 support in GCC;
 
 
 C++11的三个重点特性：1)资源管理 RAII (smart pointer/ shared_ptr ), 再也不用担心内存泄露，RAII的核心是构造和析构函数的自动调用；
@@ -305,7 +304,8 @@ if(obj == nullptr) 等价于 if(!obj);
 
 class God: public std::enable_shared_from_this<God>
 {
- std::shared_ptr<God> getptr() { return shared_from_this();} //ok, but don't do this :  return std::shared_ptr<God>(this);
+ std::shared_ptr<God> getptr() { return shared_from_this();} //ok 
+  return std::shared_ptr<God>(this);//error !
 }
 
 
