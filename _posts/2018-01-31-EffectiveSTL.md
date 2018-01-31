@@ -9,12 +9,9 @@
 [The Boost C++ Libraries](https://theboostcpplibraries.com/)  学习boost有助于深入理解C++特性的本质；
 
 [Better use of STL containter](http://sean-parent.stlab.cc/papers-and-presentations#title-better-code-data-structures)   
-
-
-<Effective STL> 中文版翻译的非常棒, 不过这本书里面有些内容过时了，在C++11里面已经得到了支持；
   
 <C++标准程序库> 这本书描述了STL的内部实现机制，非常有助于学习STL算法的思想
-
+<Effective STL> 中文版翻译的非常棒, 不过这本书里面有些内容过时了，在C++11里面已经得到了支持；
 
 
   使用STL的代码在编译时会把STL的源码特化后重新编译的，因为模板必须特化后才会参与编译。也就是说STL头文件里面包含的都是STL源码.
